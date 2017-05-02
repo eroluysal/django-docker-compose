@@ -1,0 +1,20 @@
+version: '3'
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+  db:
+    image: postgres
+  web:
+    environment:
+      - DEBUG=1
+    build: .
+    command: bash -c "python manage.py migrate && python3 manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - ./:/code/
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+      - redis
