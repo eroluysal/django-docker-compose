@@ -1,3 +1,6 @@
+# django-docker-compose
+Docker compose example Django, Postgres, Redis
+
 - [Usage](#usage)
 - [Installation](#installation)
 
