@@ -1,5 +1,12 @@
 from fabric.api import *
 
 """
-FABRIC CONFIGURATION
+FABRIC CONFIGURATIONS
 """
+
+
+def start():
+    """
+    Example deploy configuration ...
+    """
+    pass
