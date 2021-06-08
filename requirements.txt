@@ -11,7 +11,7 @@ idna==2.5
 Markdown==2.6.8
 olefile==0.44
 packaging==16.8
-paramiko==2.1.2
+paramiko==2.1.6
 Pillow==8.2.0
 psycopg2==2.7
 pyasn1==0.2.3
