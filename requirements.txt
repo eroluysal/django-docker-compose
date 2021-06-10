@@ -2,7 +2,7 @@ appdirs==1.4.3
 asn1crypto==0.22.0
 cffi==1.10.0
 cryptography==3.3.2
-Django==1.11.29
+Django==2.2.24
 django-admin==1.0.2
 django-contrib-comments==1.8.0
 easy-thumbnails==2.4.1
